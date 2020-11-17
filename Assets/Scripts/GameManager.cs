@@ -14,9 +14,9 @@ public class GameManager : MonoBehaviour
     public bool _isFrameOver = false;
 
     public GameObject ball;
-    private Vector3 ball1POS = new Vector3(0.9f, 1.5f, -0.1f);
-    private Vector3 ball2POS = new Vector3(0.9f, 1.5f, 0.2f);
-    private Vector3 ball3POS = new Vector3(0.9f, 1.5f, 0.5f);
+    private Vector3 ball1POS = new Vector3(0.8971253f, 1.448286f, -0.1182623f);
+    private Vector3 ball2POS = new Vector3(0.8936486f, 1.488603f, 0.1284149f);
+    private Vector3 ball3POS = new Vector3(0.8923754f, 1.52884f, 0.3751538f);
     //private BowlingBall bbScript;
     
 

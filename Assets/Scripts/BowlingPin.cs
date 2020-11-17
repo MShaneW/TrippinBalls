@@ -37,4 +37,12 @@ public class BowlingPin : MonoBehaviour
         }
 
     }
+
+    void PinOutOfBounds()
+    {
+        if (transform.position.y < 5.0f)
+        {
+            Destroy(gameObject);            
+        }
+    }
 }
