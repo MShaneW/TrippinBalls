@@ -9,7 +9,7 @@ public class BowlingBall : MonoBehaviour
     //private float xMax = 10.85f;//.3f;//difference between start position and right edge of lane
     private float yMin = 0.176f; //-0.10f;
     private float yMax = 16f;
-    private float zMin = -2.5f; 
+    private float zMin = -70f; 
     private float zMax = 70f;
     //public int _ballCount = 0;
 

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RotateLanes : MonoBehaviour
 {
-    public float laneRotationSpeed = 1.0f;
+    public float laneRotationSpeed = 2.0f;
     // Start is called before the first frame update
     void Start()
     {

@@ -9,21 +9,24 @@ public class GameManager : MonoBehaviour
     public bool _isGameOver = false;
     public int _ballCount = 0;
     public int _pinCount = 80;
-    public int _currentFrame = 0;
-    public int _currentBall = 0;
-    public bool _isFrameOver = false;
+    public int _currentFrame = 0; //not currently used anymore
+    public int _currentBall = 0; //not currently used
+    public bool _isFrameOver = false; //not currently used anymore
 
     public GameObject ball;
     private Vector3 ball1POS = new Vector3(0.8971253f, 1.448286f, -0.1182623f);
     private Vector3 ball2POS = new Vector3(0.8936486f, 1.488603f, 0.1284149f);
     private Vector3 ball3POS = new Vector3(0.8923754f, 1.52884f, 0.3751538f);
+    private Vector3 ball4POS = new Vector3(0.8971253f, 1.448286f, -0.1182623f);
+    private Vector3 ball5POS = new Vector3(0.8936486f, 1.488603f, 0.1284149f);
+    private Vector3 ball6POS = new Vector3(0.8923754f, 1.52884f, 0.3751538f);
     //private BowlingBall bbScript;
-    
+
 
     // Start is called before the first frame update
     void Start()
     {
-        //bbScript = GetComponent<BowlingBall>();
+        
     }
 
     // Update is called once per frame

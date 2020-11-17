@@ -8,6 +8,7 @@
 /[Bb]uild/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Bb]uilds/Windows-Rift/TrippinBalls_BackUpThisFolder_ButDontShipItWithYourGame/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -51,7 +52,7 @@ ExportedObj/
 sysinfo.txt
 
 # Builds
-*.apk
+#*.apk
 *.unitypackage
 
 # Crashlytics generated file
